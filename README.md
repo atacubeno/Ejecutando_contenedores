@@ -27,10 +27,13 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   Crear un contenedor de ubunto:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
   
   <img width="574" alt="2" src="https://user-images.githubusercontent.com/91874745/167042772-3406c90d-5ef6-48a8-9a0c-c66032a1bc4a.png">
-
   
+  Podemos comprobar que estamos corriendo dicho contenedor:
+  
+  <img width="576" alt="5" src="https://user-images.githubusercontent.com/91874745/167043738-ba6cccc2-c30b-40bc-b281-1f858715b1f1.png">
 
-  Como podemos ver ha habido cambios en la consola ya que al crear el contenedor se nos da acceso a un shell del mismo, en este caso ubuntu.
+
+  Como podemos ver ha habido cambios en la consola ya que al crear el contenedor se nos da acceso a un shell del mismo, en este caso Ubuntu.
   Es importante destacar que estos cambios también se notarán en la app; tenemos dos contenedores, uno del inicio de [***Docker***](https://www.docker.com) y otro de **Ubuntu**, ambos con una leyenda que dice RUNNING.
   
   <img width="1266" alt="3" src="https://user-images.githubusercontent.com/91874745/167043127-9d7457ff-860d-49b9-8d78-fee97f13bb10.png">
