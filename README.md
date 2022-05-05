@@ -42,6 +42,10 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   
   <img width="1266" alt="4" src="https://user-images.githubusercontent.com/91874745/167043496-336272a3-2dfd-4a09-972e-31247a6e5c86.png">
 
+  Para salir de la shell de **Ubuntu** con `exit`bastaría, y volveríamos a estar en la consola de nuestro sistema operativo.
+  
+  <img width="572" alt="6" src="https://user-images.githubusercontent.com/91874745/167044136-4eb2983c-6c0e-4628-a48f-c094af8eb9c9.png">
+
   
 
   ## Ejemplo 2 
