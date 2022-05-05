@@ -65,14 +65,13 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   <img width="572" alt="8" src="https://user-images.githubusercontent.com/91874745/167044571-26e0a19e-844b-4f9e-8700-43a46aa698f8.png">
 
 
-  Y en la versión de escritorio vemos que se ha detenido pero si accedemos al contenedor veremos lo mismo que por shell:
+  Y en la versión de escritorio vemos que se ha detenido.
   
   <img width="1262" alt="9" src="https://user-images.githubusercontent.com/91874745/167044688-f652e872-adc1-4f32-9df8-1217e106dbcb.png">
 
+ Además si accedemos al contenedor veremos lo mismo que por shell:
  
  <img width="1272" alt="10" src="https://user-images.githubusercontent.com/91874745/167044844-59465b23-5686-4163-8b5a-c408747efafa.png">
-
- 
 
 
   ## Ejemplo 4 
