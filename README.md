@@ -38,7 +38,7 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   
   <img width="1266" alt="3" src="https://user-images.githubusercontent.com/91874745/167043127-9d7457ff-860d-49b9-8d78-fee97f13bb10.png">
 
-  En la versión de escritorio nos aparecerá la opción de detener el contenedor de **Ubunt** con un botón de stop, entre otras opciones:
+  En la versión de escritorio nos aparecerá un botón de stop para detener el contenedor, entre otras opciones:
   
   <img width="1266" alt="4" src="https://user-images.githubusercontent.com/91874745/167043496-336272a3-2dfd-4a09-972e-31247a6e5c86.png">
 
