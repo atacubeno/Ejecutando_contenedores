@@ -10,24 +10,40 @@
  ![1primero](https://user-images.githubusercontent.com/91874745/167041963-07e5aa0a-a231-4b12-9a91-0170ac335c07.gif)
 
 
-  **Primer paso** 
-  Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para esto abrimos la app [***Docker***](https://www.docker.com) (en mi caso tengo la versión de escritorio) y enseguida nos indica tenemos que ejecutar el comando `docker run -d -p 08:80 docker/getting-started` por consola y después volver a la app.
+ **Primer paso** 
+Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para esto abrimos la app [***Docker***](https://www.docker.com) (en mi caso tengo la versión de escritorio) y enseguida nos indica tenemos que ejecutar el comando `docker run -d -p 08:80 docker/getting-started` por consola y después volver a la app.
   
-  Procedemos con el ejemplo 1 de este ejercicio para la ejecución de un contendor, en la misma consola para descargarnos una imagen previa usamos el comando `docker pull ubuntu:18.04`
+  <img width="1272" alt="1 2" src="https://user-images.githubusercontent.com/91874745/167042268-5c201cbc-9e63-4afa-967b-87c99cfa6e10.png">
+
+  
+  Procedemos con el ejemplo 1 de este ejercicio para la ejecución de un contendor, en la misma consola descargaremos una imagen previa usamos el comando `docker pull ubuntu:18.04` y veremos algo así:
+  
+  <img width="575" alt="1" src="https://user-images.githubusercontent.com/91874745/167042537-e30950df-af1f-4ef8-97a8-dea512b22479.png">
+
 
   **Segundo paso**
   Crear un contenedor de ubunto:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`
+  
+  <img width="574" alt="2" src="https://user-images.githubusercontent.com/91874745/167042772-3406c90d-5ef6-48a8-9a0c-c66032a1bc4a.png">
+
+  
 
   Como podemos ver ha habido cambios en la consola ya que al crear el contenedor se nos da acceso a un shell del mismo, en este caso ubuntu
 
   ## Ejemplo 2 
   
-  **Vista de los siguientes ejemplos por consola (a continuación se describen los pasos detalladamente)**
+  **Vista de los siguientes ejemplos por consola (a continuación se describen los pasos detalladamente).**
   
   ![eje 2 y 4](https://user-images.githubusercontent.com/91874745/167042130-72375592-0176-46c7-b190-7bacc84cac78.gif)
 
 
-  Para crear un contenedor de centOS:18.04 y listar el contenido de la carpeta /. Lo conseguimos con `docker run ubuntu:18.04 ls/` y para comprobar que todo ha ido bien nos tendría que mostrar lo siguiente:
+  Para crear un contenedor de centOS:18.04 y listar el contenido de la carpeta /. Lo conseguimos con `docker run ubuntu:18.04 ls/`.
+  
+
+
+ Y comprobar que todo ha ido bien nos tendría que mostrar lo siguiente:
+ 
+ 
 
 
   ## Ejemplo 4 
