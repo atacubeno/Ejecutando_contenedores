@@ -2,7 +2,7 @@
 
 #  Ejecutando contenedores en [***Docker***](https://www.docker.com)
 
-## ***Ejemplo 1*** 
+## Ejemplo 1
 
 
  **Vista por consola (se describen pasos en los siguientes puntos).**
@@ -10,7 +10,7 @@
  ![1primero](https://user-images.githubusercontent.com/91874745/167041963-07e5aa0a-a231-4b12-9a91-0170ac335c07.gif)
 
 
- **Primer paso** 
+ ***Primer paso***
  
 Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para esto abrimos la app [***Docker***](https://www.docker.com) (en mi caso tengo la versión de escritorio) y enseguida nos indica tenemos que ejecutar el comando `docker run -d -p 08:80 docker/getting-started` por consola y después volver a la app.
   
@@ -22,7 +22,7 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   <img width="575" alt="1" src="https://user-images.githubusercontent.com/91874745/167042537-e30950df-af1f-4ef8-97a8-dea512b22479.png">
 
 
-  **Segundo paso**
+  ***Segundo paso***
   
   Crear un contenedor de ubunto:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
   
@@ -77,9 +77,11 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   ## Ejemplo 4 
 
   **Primer paso**
-  Crear un contenedor de debian 9 y mostrar el contenido de una carpeta establecida con el parámetro -w.
   
-  Ejecutaremos por consola `docker run it -it -w /etc debian:9 ls`. 
+  Crear un contenedor de debian 9 y mostrar el contenido de una carpeta establecida con el parámetro -w. Ejecutaremos por consola `docker run it -it -w /etc debian:9 ls`. 
+  
+  <img width="571" alt="11" src="https://user-images.githubusercontent.com/91874745/167045104-9961df57-8676-4fd3-b5f7-75217ccdf0c9.png">
+
 
   Al crear el contenedor se ejecuta la orden `ls` desde el directorio `/etc`, posteriormente el contenedor pasa a estar parado y ya no tendremos acceso a este.
 
