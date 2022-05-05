@@ -21,6 +21,11 @@
   Como podemos ver ha habido cambios en la consola ya que al crear el contenedor se nos da acceso a un shell del mismo, en este caso ubuntu
 
   ## Ejemplo 2 
+  
+  **Vista de los siguientes ejemplos por consola (a continuación se describen los pasos detalladamente)**
+  
+  ![eje 2 y 4](https://user-images.githubusercontent.com/91874745/167042130-72375592-0176-46c7-b190-7bacc84cac78.gif)
+
 
   Para crear un contenedor de centOS:18.04 y listar el contenido de la carpeta /. Lo conseguimos con `docker run ubuntu:18.04 ls/` y para comprobar que todo ha ido bien nos tendría que mostrar lo siguiente:
 
