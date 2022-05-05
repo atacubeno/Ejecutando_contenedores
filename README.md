@@ -46,7 +46,11 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   
   <img width="572" alt="6" src="https://user-images.githubusercontent.com/91874745/167044136-4eb2983c-6c0e-4628-a48f-c094af8eb9c9.png">
 
-  Y vemos que también afecta a la versión de escritorio, y esto sucede en cada cosa que hagamos relacionada con [***Docker***](https://www.docker.com)       desde la consola
+  Y vemos que también afecta a la versión de escritorio, y esto sucede en cada cosa que hagamos relacionada con [***Docker***](https://www.docker.com)       desde la consola. Al hacer el `exit` por consola, nuestro contenedor ya no tiene la leyenda ***RUNNING*** si no ***EXITED***, se ha detenido:
+  
+  
+  <img width="1270" alt="7" src="https://user-images.githubusercontent.com/91874745/167044523-8da7f62d-d138-4700-8c2b-eb8f8d88b37d.png">
+
 
   ## Ejemplo 2 
   
@@ -56,10 +60,13 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
 
 
   Para crear un contenedor de centOS:18.04 y listar el contenido de la carpeta /. Lo conseguimos con `docker run ubuntu:18.04 ls/`.
+    Y para comprobar que todo ha ido bien nos tendría que mostrar lo siguiente:
   
+  <img width="572" alt="8" src="https://user-images.githubusercontent.com/91874745/167044571-26e0a19e-844b-4f9e-8700-43a46aa698f8.png">
 
 
- Y comprobar que todo ha ido bien nos tendría que mostrar lo siguiente:
+
+
  
  
 
