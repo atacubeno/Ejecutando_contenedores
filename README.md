@@ -11,6 +11,7 @@
 
 
  **Primer paso** 
+ 
 Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para esto abrimos la app [***Docker***](https://www.docker.com) (en mi caso tengo la versión de escritorio) y enseguida nos indica tenemos que ejecutar el comando `docker run -d -p 08:80 docker/getting-started` por consola y después volver a la app.
   
   <img width="1272" alt="1 2" src="https://user-images.githubusercontent.com/91874745/167042268-5c201cbc-9e63-4afa-967b-87c99cfa6e10.png">
@@ -22,13 +23,23 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
 
 
   **Segundo paso**
-  Crear un contenedor de ubunto:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`
+  
+  Crear un contenedor de ubunto:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
   
   <img width="574" alt="2" src="https://user-images.githubusercontent.com/91874745/167042772-3406c90d-5ef6-48a8-9a0c-c66032a1bc4a.png">
 
   
 
-  Como podemos ver ha habido cambios en la consola ya que al crear el contenedor se nos da acceso a un shell del mismo, en este caso ubuntu
+  Como podemos ver ha habido cambios en la consola ya que al crear el contenedor se nos da acceso a un shell del mismo, en este caso ubuntu.
+  Es importante destacar que estos cambios también se notarán en la app; tenemos dos contenedores, uno del inicio de [***Docker***](https://www.docker.com) y otro de **Ubuntu**, ambos con una leyenda que dice RUNNING.
+  
+  <img width="1266" alt="3" src="https://user-images.githubusercontent.com/91874745/167043127-9d7457ff-860d-49b9-8d78-fee97f13bb10.png">
+
+  En la versión de escritorio nos aparecerá la opción de detener el contenedor de **Ubunt** con un botón de stop:
+  
+  <img width="1266" alt="4" src="https://user-images.githubusercontent.com/91874745/167043496-336272a3-2dfd-4a09-972e-31247a6e5c86.png">
+
+  
 
   ## Ejemplo 2 
   
