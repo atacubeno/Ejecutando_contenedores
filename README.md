@@ -2,7 +2,7 @@
 
 #  Ejecutando contenedores en [***Docker***](https://www.docker.com)
 
-## Ejemplo 1 
+## ***Ejemplo 1*** 
 
 
  **Vista por consola (se describen pasos en los siguientes puntos).**
