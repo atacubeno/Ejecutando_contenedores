@@ -10,7 +10,7 @@
  ![1primero](https://user-images.githubusercontent.com/91874745/167041963-07e5aa0a-a231-4b12-9a91-0170ac335c07.gif)
 
 
- ***Primer paso***
+ ***Primer paso: descargar  una imagen de manera previa***
  
 Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para esto abrimos la app [***Docker***](https://www.docker.com) (en mi caso tengo la versión de escritorio) y enseguida nos indica tenemos que ejecutar el comando `docker run -d -p 08:80 docker/getting-started` por consola y después volver a la app.
   
@@ -22,9 +22,9 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   <img width="575" alt="1" src="https://user-images.githubusercontent.com/91874745/167042537-e30950df-af1f-4ef8-97a8-dea512b22479.png">
 
 
-  ***Segundo paso***
+  ***Segundo paso: crear un contenedor de ubunto:18.04***
   
-  Crear un contenedor de ubunto:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
+  Para crear un contenedor de ubuntu:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
   
   <img width="574" alt="2" src="https://user-images.githubusercontent.com/91874745/167042772-3406c90d-5ef6-48a8-9a0c-c66032a1bc4a.png">
   
