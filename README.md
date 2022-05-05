@@ -46,7 +46,7 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   
   <img width="572" alt="6" src="https://user-images.githubusercontent.com/91874745/167044136-4eb2983c-6c0e-4628-a48f-c094af8eb9c9.png">
 
-  
+  Y vemos que también afecta a la versión de escritorio, y esto sucede en cada cosa que hagamos relacionada con [***Docker***](https://www.docker.com)       desde la consola
 
   ## Ejemplo 2 
   
