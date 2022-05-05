@@ -83,7 +83,10 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
   <img width="571" alt="11" src="https://user-images.githubusercontent.com/91874745/167045104-9961df57-8676-4fd3-b5f7-75217ccdf0c9.png">
 
 
-  Al crear el contenedor se ejecuta la orden `ls` desde el directorio `/etc`, posteriormente el contenedor pasa a estar parado y ya no tendremos acceso a este.
+  Al crear el contenedor se ejecuta la orden `ls` desde el directorio `/etc`, posteriormente el contenedor pasa a estar parado y ya no tendremos acceso a este como se puede ver a continuación: 
+  
+  <img width="1264" alt="12" src="https://user-images.githubusercontent.com/91874745/167045448-211b4bc9-3f70-4d86-832d-c8218b9bd096.png">
+
 
   **Segundo paso**
   Cada que creemos con tenedores, hay dos órdenes que nos van a interesar para hacer un seguimiento de qué tenemos en nuestro sistma.
