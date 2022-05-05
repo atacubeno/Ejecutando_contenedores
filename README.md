@@ -24,7 +24,7 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
 
   ***Segundo paso: crear un contenedor de ubunto:18.04***
   
-  Para crear un contenedor de ubuntu:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará, para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
+  Para crear un contenedor de ubuntu:18.04 y tener acceso a un shell en él (si no hemos descargado la imagen de manera previa se descargará), para esto usaremos `docker run -it ubuntu:18.04/bin/bash`.
   
   <img width="574" alt="2" src="https://user-images.githubusercontent.com/91874745/167042772-3406c90d-5ef6-48a8-9a0c-c66032a1bc4a.png">
   
