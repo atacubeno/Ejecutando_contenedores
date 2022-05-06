@@ -104,7 +104,7 @@ En la app al abrir el contenedor veremos:
  
 <img width="1166" alt="15" src="https://user-images.githubusercontent.com/91874745/167046155-110f6d8d-607b-4237-997c-3b8e77e35788.png">
 
-Con esto hemos terminado los ejemplos.
+Con esto terminado los ejemplos.
 
 ![whale-docker](https://user-images.githubusercontent.com/91874745/167046719-32c5dfca-d811-4676-b58d-6158308c97af.gif)
 
