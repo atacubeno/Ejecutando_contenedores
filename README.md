@@ -76,21 +76,35 @@ Antes de empezar hay que iniciar [***Docker***](https://www.docker.com), para es
 
   ## Ejemplo 4 
 
-  **Primer paso**
+  **Primer paso: crear un contenedor de debian 9 y mostrar el contenido de una carpeta establecida con el parámetro -w. **
   
-  Crear un contenedor de debian 9 y mostrar el contenido de una carpeta establecida con el parámetro -w. Ejecutaremos por consola `docker run it -it -w /etc debian:9 ls`. 
+  Ejecutaremos por consola `docker run it -it -w /etc debian:9 ls`: 
   
   <img width="571" alt="11" src="https://user-images.githubusercontent.com/91874745/167045104-9961df57-8676-4fd3-b5f7-75217ccdf0c9.png">
 
 
-  Al crear el contenedor se ejecuta la orden `ls` desde el directorio `/etc`, posteriormente el contenedor pasa a estar parado y ya no tendremos acceso a este como se puede ver a continuación: 
+  Al crear el contenedor se ejecuta la orden `ls` desde el directorio `/etc`, posteriormente el contenedor pasa a estar parado y ya no tendremos acceso a este como se puede ver a continuación, que esta como `EXITED`: 
   
   <img width="1264" alt="12" src="https://user-images.githubusercontent.com/91874745/167045448-211b4bc9-3f70-4d86-832d-c8218b9bd096.png">
 
+En la app al abrir el contenedor veremos:
 
-  **Segundo paso**
-  Cada que creemos con tenedores, hay dos órdenes que nos van a interesar para hacer un seguimiento de qué tenemos en nuestro sistma.
+<img width="1268" alt="13" src="https://user-images.githubusercontent.com/91874745/167045576-e54dc52b-93e6-4861-8f54-8d7cf8a8e6a0.png">
 
-  **Para mostrar los contenedores en ejecución (estado up) usamos `docker ps`** 
 
-  **Para mostrar todos los contenedores creados ya sea que estén en ejecución (estado Up) o parados (estado Exited)** usaremos el comando `docker ps -a`. Con esto hemos terminado los ejemplos.
+  **Segundo paso: mostrar los contenedores** 
+  
+  Cada que creamos contenedores, hay dos órdenes que nos van a interesar para hacer un seguimiento de qué tenemos en nuestro sistema.
+  
+  En caso de querer los **contenedores en ejecución (Estado Up)** usaremos el comando `docker ps`:
+  
+  <img width="1164" alt="14" src="https://user-images.githubusercontent.com/91874745/167046063-77d678b0-03a2-45c4-9498-139b79d343ee.png">
+
+ Para mostrar **todos los contenedores creados ya sea que estén en ejecución (estado Up) o parados (estado Exited)** usaremos el comando `docker ps -a`.  
+ 
+<img width="1166" alt="15" src="https://user-images.githubusercontent.com/91874745/167046155-110f6d8d-607b-4237-997c-3b8e77e35788.png">
+
+Con esto hemos terminado los ejemplos.
+
+
+
