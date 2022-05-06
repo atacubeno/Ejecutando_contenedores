@@ -106,5 +106,7 @@ En la app al abrir el contenedor veremos:
 
 Con esto hemos terminado los ejemplos.
 
+![whale-docker](https://user-images.githubusercontent.com/91874745/167046719-32c5dfca-d811-4676-b58d-6158308c97af.gif)
+
 
 
