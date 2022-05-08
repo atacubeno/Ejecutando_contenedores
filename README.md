@@ -5,7 +5,7 @@
 ## Ejemplo 1
 
 
- **Vista por consola (se describen pasos en los siguientes puntos).**
+ **Vista por consola (se describen los pasos a seguir en los siguientes puntos).**
  
  ![1primero](https://user-images.githubusercontent.com/91874745/167041963-07e5aa0a-a231-4b12-9a91-0170ac335c07.gif)
 
